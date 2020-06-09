@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.ssh/config: ssh/config
+    ~/.gitconfig: git/config
+    ~/.gitignore_global: git/ignore

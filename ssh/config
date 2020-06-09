@@ -1,0 +1,24 @@
+Host open2
+    HostName opensub02.umiacs.umd.edu
+    User kampta
+    IdentityFile ~/.ssh/id_rsa
+
+Host open3
+    HostName opensub03.umiacs.umd.edu
+    User kampta
+    IdentityFile ~/.ssh/id_rsa
+
+Host vulcan0
+    Hostname vulcansub00.umiacs.umd.edu
+    User kampta
+    IdentityFile ~/.ssh/id_rsa
+
+Host vulcan1
+    Hostname vulcansub01.umiacs.umd.edu
+    User kampta
+    IdentityFile ~/.ssh/id_rsa
+
+Host cml
+    Hostname cmlsub00.umiacs.umd.edu
+    User kampta
+    IdentityFile ~/.ssh/id_rsa

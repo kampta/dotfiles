@@ -74,7 +74,7 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>658 1088 799 448 -249 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 877 0 0 1440 900 </string>
+	<string>575 144 570 452 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>786 425 570 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1290,9 +1290,13 @@
 	<key>NoSyncInstallationId</key>
 	<string>06584304-D483-448A-8572-BFDB8074AEE7</string>
 	<key>NoSyncLastTipTime</key>
-	<real>615128798.35880196</real>
+	<real>615301665.92839503</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>9</integer>
+	<integer>14</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>614034026.14062798</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2007,19 +2011,23 @@
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>613021088.35282099</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
-		<string>0006</string>
-		<string>0003</string>
-		<string>0000</string>
-		<string>0007</string>
 		<string>0004</string>
-		<string>0001</string>
-		<string>000</string>
-		<string>0008</string>
-		<string>0005</string>
+		<string>0000</string>
+		<string>0010</string>
+		<string>0007</string>
+		<string>0003</string>
+		<string>0006</string>
 		<string>0002</string>
+		<string>000</string>
 		<string>0009</string>
+		<string>0005</string>
+		<string>0001</string>
+		<string>0008</string>
+		<string>0011</string>
 	</array>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
@@ -2076,6 +2084,8 @@
 	<false/>
 	<key>WindowNumber</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.3.10</string>
 </dict>

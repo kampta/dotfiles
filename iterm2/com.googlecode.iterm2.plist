@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -74,9 +76,9 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>658 1088 799 448 -249 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>575 144 570 452 0 0 1440 900 </string>
+	<string>0 425 570 452 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>786 425 570 452 0 0 1440 877 </string>
+	<string>786 425 570 452 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1283,16 +1285,16 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{-249, 900}, {1920, 1080}}</string>
+		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{348, 1614}</string>
+		<string>{210, 800}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>06584304-D483-448A-8572-BFDB8074AEE7</string>
 	<key>NoSyncLastTipTime</key>
 	<real>615301665.92839503</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>14</integer>
+	<integer>46</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2029,6 +2031,8 @@
 		<string>0008</string>
 		<string>0011</string>
 	</array>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
 	<key>PointerActions</key>

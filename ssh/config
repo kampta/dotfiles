@@ -12,8 +12,6 @@ Host vulcan0
     Hostname vulcansub00.umiacs.umd.edu
     User kampta
     IdentityFile ~/.ssh/id_rsa
-    ServerAliveInterval 60
-    ServerAliveCountMax 10
     ProxyJump openlab.umiacs.umd.edu
     DynamicForward 9090
 
@@ -21,8 +19,6 @@ Host vulcan1
     Hostname vulcansub01.umiacs.umd.edu
     User kampta
     IdentityFile ~/.ssh/id_rsa
-    ServerAliveInterval 60
-    ServerAliveCountMax 10
     ProxyJump openlab.umiacs.umd.edu
     DynamicForward 9090
 
@@ -30,3 +26,5 @@ Host cml
     Hostname cmlsub00.umiacs.umd.edu
     User kampta
     IdentityFile ~/.ssh/id_rsa
+    ProxyJump openlab.umiacs.umd.edu
+    DynamicForward 9090

@@ -1,3 +1,6 @@
+Host *
+    ServerAliveInterval 86400
+
 Host open2
     HostName opensub02.umiacs.umd.edu
     User kampta
